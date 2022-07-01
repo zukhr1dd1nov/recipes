@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-28 22:29+0500\n"
+"PO-Revision-Date: 2022-04-28 22:33+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: account/forms.py:15 account/forms.py:80
+msgid "Parol takroran"
+msgstr ""
+
+#: account/forms.py:16 account/forms.py:78
+msgid "Parol"
+msgstr "Password"
+
+#: account/forms.py:17 account/forms.py:53
+msgid "Ism"
+msgstr "Name"
+
+#: account/forms.py:18 account/forms.py:54
+msgid "Famliya"
+msgstr "Last name"
+
+#: account/forms.py:23 account/forms.py:30 account/forms.py:59
+#: account/forms.py:66
+msgid "Iltimos faqat lotin harflarinin kiriting!"
+msgstr "Please , enter only latin letters!"
+
+#: account/forms.py:40 account/forms.py:99
+msgid "Parollar bir-xil emas"
+msgstr "Passwords are different"
+
+#: account/forms.py:79
+msgid "Yangi parol"
+msgstr "New password"
+
+#: account/forms.py:90
+msgid "Parol noto'g'ri"
+msgstr "Invalid password"
+
+#: account/views.py:21
+msgid "Muvaffaqiyalti o'zgartirildi"
+msgstr "Сhanges saved successfully"
+
+#: account/views.py:35
+msgid "Xush kelibsiz {user.get_full_name()}"
+msgstr "Welcome {user.get_full_name()}"
+
+#: account/views.py:38
+msgid "Login va/yoki parol notog'ri"
+msgstr "Login and/or password is incorrect"
+
+#: account/views.py:48
+msgid "Muvaffaqiyatli ro'yhatdan o'tdingiz"
+msgstr "You have successfully registered"
+
+#: account/views.py:56
+msgid "Kelib turing , {request.user.get_full_name()}"
+msgstr "Сome again  , {request.user.get_full_name()}"
+
+#: account/views.py:67
+msgid "Parol muvaffaqiyatli o'zgartirildi"
+msgstr "Your password has successfully changed"
+
+#: config/settings.py:126
+msgid "O'zbek"
+msgstr "Uzbek"
+
+#: config/settings.py:127
+msgid "English"
+msgstr "English"
+
+#: config/settings.py:128
+msgid "Русский"
+msgstr "Russian"
+
+#: main/views.py:48
+msgid "Taomingiz muvaffaqiyalo qo'shildi"
+msgstr "Your recipe has successfully added"
+
+#: templates/account/change-password.html:9 templates/layouts/base.html:33
+msgid "Parolni o'zgartirish"
+msgstr "Changing password"
+
+#: templates/account/change-password.html:14
+msgid "Tasdiqlash"
+msgstr "Approve"
+
+#: templates/account/login.html:9 templates/account/login.html:14
+#: templates/layouts/base.html:48
+msgid "Tizimga kirish"
+msgstr "Login"
+
+#: templates/account/profile.html:9 templates/layouts/base.html:30
+msgid "Profil"
+msgstr "Profile"
+
+#: templates/account/profile.html:14
+msgid "O'zgartirish"
+msgstr "To change"
+
+#: templates/account/registration.html:9 templates/layouts/base.html:44
+msgid "Registratsiya"
+msgstr "Registration"
+
+#: templates/account/registration.html:14
+msgid "Ro'yhatdan o'tish"
+msgstr "Registration"
+
+#: templates/layouts/base.html:16
+msgid "Retseptlar"
+msgstr "Recipes"
+
+#: templates/layouts/base.html:37
+msgid "Chiqish"
+msgstr "Logout"
+
+#: templates/main/index.html:14
+msgid "Hozircha hech qanday maqola yo'q"
+msgstr "There are not new recipes"
+
+#: templates/main/new_taom.html:9
+msgid "Yangi Taom"
+msgstr "New recipe"
+
+#: templates/main/new_taom.html:14
+msgid "Taomni qo'shish"
+msgstr "Add recipe"
+
+#: templates/main/read.html:12
+msgid "Muallifi"
+msgstr "Author"
+
+#: templates/main/read.html:13
+msgid "Tayyorlash vaqti"
+msgstr "Preparation Time"
+
+#: templates/main/read.html:13
+msgid "daqiqa"
+msgstr "minutes"
+
+#: templates/main/read.html:14
+msgid "Portsiyalar soni"
+msgstr "Number of portraits"
+
+#: templates/main/taom.html:14
+msgid "ko'rilgan"
+msgstr "viewed"
+
+#: templates/main/taom.html:26
+msgid "Davomini o'qish"
+msgstr "Read More"
+
+#~ msgid "Qidirish"
+#~ msgstr "Search"

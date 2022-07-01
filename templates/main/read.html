@@ -1,0 +1,25 @@
+{% extends "layouts/base.html" %}
+{% load i18n helpers %}
+{% block content %}
+
+
+
+    <div class="card mycard bg-success col-8 container " style="border-bottom-right-radius: 0px;border-bottom-left-radius: 0px" >
+        <h1 class="text-center w-50">{{ taom.name }}</h1>
+        <div class="d-flex ">
+            <img src="{{ taom.photo.url }}" class="card-img-top" alt="{{ taom.photo }}">
+            <div class="d-flex w-100 flex-column">
+                <div class="text-center text-black  ">{% trans 'Muallifi' %} : {{ taom.creator }}</div>
+                <div class="text-center text-black">{% trans 'Tayyorlash vaqti' %} : {{ taom.how_much_time|minutes }} {% trans 'daqiqa' %}</div>
+                <div class="text-center text-black">{% trans 'Portsiyalar soni' %} : {{ taom.portions }}</div>
+                <hr class="dropdown-divider ms-2">
+                <div class="text ms-3 text-black">{{ taom.comment_text }}</div>
+            </div>
+        </div>
+        <div class="card-body">
+            <p class="card-text text-black">
+                {{ taom.text }}
+            </p>
+        </div>
+    </div>
+{% endblock %}

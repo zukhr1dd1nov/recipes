@@ -1,0 +1,17 @@
+{% extends "layouts/base.html" %}
+{% load i18n static %}
+{% block content %}
+{% for kategoriya in kategoriyalar %}
+<div class="card bg-success index " style="width: 18rem; border: solid black 5px;">
+  <img src="{{ kategoriya.photo.url }}" class="card-img-top" alt="{{ kategoriya.name }}"/>
+  <div class="card-body text-center">
+    <a href="{% url 'main_retsept' kategoriya.id %}" class="btn rounded-circle border-4  btn-warning"><strong>{{ kategoriya }}</strong></a>
+  </div>
+</div>
+{% empty %}
+    <div class="text-center">
+    <h1 class="card-title">{% trans "Hozircha hech qanday maqola yo'q" %}</h1>
+    </div>
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends "layouts/base.html" %}
+{% load helpers i18n %}
+{% block content %}
+
+
+    {% for taom in page_obj %}
+        <table class="table container d-flex flex-wrap flex-column ">
+            <thead>
+            <tr class="d-flex">
+                <th>
+                    {{ taom.name }}
+                </th>
+                <th class="ms-auto">
+                    {{ taom.viewed }} {% trans "ko'rilgan" %}
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="photo border-bottom-0 ">
+                    <img src="{{ taom.photo.url }}" class="card-img-top" alt="{{ taom.name }}"/>
+                </td>
+                <td class=" border-bottom-0 mywidth d-flex flex-column">
+                    <div class="h-100 text-break">{{ taom.text }}</div>
+                    <a class="btn btn-outline-warning" style="border-radius: 30px;"
+                       href="{% url 'main_read' pid=taom.id %}"><strong>{% trans "Davomini o'qish" %}</strong></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    {% endfor %}
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link bg-success btn border-warning text-black" href="?page={% if page_obj.number != 1 %}{{ page_obj.previous_page_number }}{% else %}#{% endif %}" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+      {% for page in how_many_pages %}
+    <li class="page-item"><a class="page-link btn bg-success border-warning text-black" href="?page={{ page }}">{{ page }}</a></li>
+      {% endfor %}
+    <li class="page-item">
+      <a class="page-link bg-success btn text-black border-warning" href="?page={% if page_obj.paginator.num_pages != page_obj.number %}{{ page_obj.next_page_number }}{% else %}#{% endif %}" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+
+{% endblock %}

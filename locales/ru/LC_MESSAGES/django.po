@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-28 22:29+0500\n"
+"PO-Revision-Date: 2022-04-28 22:34+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: account/forms.py:15 account/forms.py:80
+msgid "Parol takroran"
+msgstr "Подтверждение пароля"
+
+#: account/forms.py:16 account/forms.py:78
+msgid "Parol"
+msgstr "Пароль"
+
+#: account/forms.py:17 account/forms.py:53
+msgid "Ism"
+msgstr "Имя"
+
+#: account/forms.py:18 account/forms.py:54
+msgid "Famliya"
+msgstr "Фамалия"
+
+#: account/forms.py:23 account/forms.py:30 account/forms.py:59
+#: account/forms.py:66
+msgid "Iltimos faqat lotin harflarinin kiriting!"
+msgstr "Пожалуйста , ведите только латинские буквы!"
+
+#: account/forms.py:40 account/forms.py:99
+msgid "Parollar bir-xil emas"
+msgstr "Пароли не совпадают "
+
+#: account/forms.py:79
+msgid "Yangi parol"
+msgstr "Новый пароль"
+
+#: account/forms.py:90
+msgid "Parol noto'g'ri"
+msgstr "Неправильный пароль"
+
+#: account/views.py:21
+msgid "Muvaffaqiyalti o'zgartirildi"
+msgstr "Успешно изменено"
+
+#: account/views.py:35
+msgid "Xush kelibsiz {user.get_full_name()}"
+msgstr "Добро пожаловать {user.get_full_name()}"
+
+#: account/views.py:38
+msgid "Login va/yoki parol notog'ri"
+msgstr "Логин и/или пароль неправильны"
+
+#: account/views.py:48
+msgid "Muvaffaqiyatli ro'yhatdan o'tdingiz"
+msgstr "Вы успешно прошли регистрацию"
+
+#: account/views.py:56
+msgid "Kelib turing , {request.user.get_full_name()}"
+msgstr "Приходите ещё , {request.user.get_full_name()}"
+
+#: account/views.py:67
+msgid "Parol muvaffaqiyatli o'zgartirildi"
+msgstr "Пароли успешно изменены"
+
+#: config/settings.py:126
+msgid "O'zbek"
+msgstr "Узбекский"
+
+#: config/settings.py:127
+msgid "English"
+msgstr "Английский"
+
+#: config/settings.py:128
+msgid "Русский"
+msgstr "Русский"
+
+#: main/views.py:48
+msgid "Taomingiz muvaffaqiyalo qo'shildi"
+msgstr "Ваш рецепт успешно добавлен"
+
+#: templates/account/change-password.html:9 templates/layouts/base.html:33
+msgid "Parolni o'zgartirish"
+msgstr "Изменит пароль"
+
+#: templates/account/change-password.html:14
+msgid "Tasdiqlash"
+msgstr "Утвердить"
+
+#: templates/account/login.html:9 templates/account/login.html:14
+#: templates/layouts/base.html:48
+msgid "Tizimga kirish"
+msgstr "Войти"
+
+#: templates/account/profile.html:9 templates/layouts/base.html:30
+msgid "Profil"
+msgstr "Профиль"
+
+#: templates/account/profile.html:14
+msgid "O'zgartirish"
+msgstr "Изменить"
+
+#: templates/account/registration.html:9 templates/layouts/base.html:44
+msgid "Registratsiya"
+msgstr "Регистрация"
+
+#: templates/account/registration.html:14
+msgid "Ro'yhatdan o'tish"
+msgstr "Регистрация"
+
+#: templates/layouts/base.html:16
+msgid "Retseptlar"
+msgstr "Рецепты"
+
+#: templates/layouts/base.html:37
+msgid "Chiqish"
+msgstr "Выйти"
+
+#: templates/main/index.html:14
+msgid "Hozircha hech qanday maqola yo'q"
+msgstr "На сегодняшний момент нету новых рецептов"
+
+#: templates/main/new_taom.html:9
+msgid "Yangi Taom"
+msgstr "Новый рецепт"
+
+#: templates/main/new_taom.html:14
+msgid "Taomni qo'shish"
+msgstr "Добавить рецепт"
+
+#: templates/main/read.html:12
+msgid "Muallifi"
+msgstr "Автор"
+
+#: templates/main/read.html:13
+msgid "Tayyorlash vaqti"
+msgstr "Время приготовления"
+
+#: templates/main/read.html:13
+msgid "daqiqa"
+msgstr "минута"
+
+#: templates/main/read.html:14
+msgid "Portsiyalar soni"
+msgstr "Число порций"
+
+#: templates/main/taom.html:14
+msgid "ko'rilgan"
+msgstr "просмотров"
+
+#: templates/main/taom.html:26
+msgid "Davomini o'qish"
+msgstr "Читать дальше"
+
+#~ msgid "Qidirish"
+#~ msgstr "Найти"
